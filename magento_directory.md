@@ -24,15 +24,16 @@ Syntax highlighted code block
 - bin
 - dev
 - generated
-- lib contains third party internal library, most useful javascript library
+- lib 
+> contains third party internal library, most useful javascript library
 - phpserver 
-which gives the option to run magento with the php build webserver, just for the developer, but to be honest, don't konw anybody one who actually use it, because it's too slow.
+> which gives the option to run magento with the php build webserver, just for the developer, but to be honest, don't konw anybody one who actually use it, because it's too slow.
 - pub
-web pages, `static` which use for the load static resources, `media`, images, videos, uploaded resources etc.
+> web pages, `static` which use for the load static resources, `media`, images, videos, uploaded resources etc.
 - update
-code that related to installations and update the code
+> code that related to installations and update the code
 - var
-you will have access to this directory, it's for the cache and tmp files
+> you will have access to this directory, it's for the cache and tmp files
 --cache
 --composer_home
 -- log
@@ -41,6 +42,6 @@ you will have access to this directory, it's for the cache and tmp files
 --tmp
 --vire_proprocessed
 -vendor/magento
-magento core code is here
+> magento core code is here
 
 
